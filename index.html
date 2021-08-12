@@ -1,18 +1,33 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>TryAngle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-	<title>TryAngle</title>
-	<meta charset="UTF-8" />
-</head>
+  <body>
+    <header>
+      <h1>Fun With Triangles</h1>
+      <a href="/">Is Triangle</a>
+      <a href="/quiz.html">Triangle Quiz</a>
+      <a href="/">Is Triangle</a>
+      <a href="/">Is Triangle</a>
+    </header>
+    <div class="container">
+      <h1>is Triangle</h1>
+      <p>Lets see if the angles you entered make a Triangle or not?</p>
+      <div class="input-div">
+        <input id="angle" type="number" placeholder="enter first angle" />
 
-<body>
-<h1>TrYangle</h1>
-<a href='/'>Is Triangle</a>
+        <input id="angle" type="number" placeholder="enter second angle" />
 
-
-	<script src="src/index.js">
-	</script>
-</body>
-
+        <input id="angle" type="number" placeholder="enter third angle" />
+        <button id="is-triangle">Is Triangle</button>
+        <h2 id="is-triangle-result"></h2>
+      </div>
+    </div>
+    <script src="src/istriangle.js"></script>
+  </body>
 </html>

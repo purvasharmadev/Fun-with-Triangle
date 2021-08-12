@@ -17,15 +17,28 @@
     </header>
     <div class="container">
       <form>
-        <p>
+        <p class="ques">
           What is the third angle for the triangle where angle1 = 45° and angle2
           = 45°?
+          <br />
+          <br />
+          <input type="radio" value="60°" id="ques1" />60°
+          <input type="radio" value="90°" id="ques1" />90°
+          <input type="radio" value="45°" id="ques1" />45°
         </p>
 
-        <input type="radio" value="60°" id="ques1" />60°
-        <input type="radio" value="90°" id="ques1" />90°
-        <input type="radio" value="45°" id="ques1" />45°
+        <p class="ques">
+          If a triangle has an angle of 90 degrees, what is it called?
+          <br />
+          <br />
+          <input type="radio" value="obtuse" id="ques1" />obtuse
+          <input type="radio" value="acute " id="ques1" />
+          <input type="radio" value="right angled°" id="ques1" />right angled
+        </p>
       </form>
+      <button type="submit" id="submit">Submit</button>
+
+      <h2 class="result">output</h2>
     </div>
   </body>
 </html>

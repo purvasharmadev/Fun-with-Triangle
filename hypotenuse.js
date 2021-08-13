@@ -15,7 +15,7 @@ function calculateHypotenuse() {
   const lengthOfHypotenuse = Math.sqrt(sumOfSquare);
   // console.log(lengthOfHypotenuse);
 
-  output.innerText = "The Hypotenuse is " + lengthOfHypotenuse;
+  output.innerText = "The length of Hypotenuse is " + lengthOfHypotenuse;
 }
 
 calBtn.addEventListener("click", calculateHypotenuse);

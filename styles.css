@@ -49,7 +49,10 @@ a {
 #angle,
 #is-triangle,
 #submitBtn,
-#calculate-hypotenuse {
+#calculate-hypotenuse,
+#base,
+#height,
+#calculate-area {
   padding: 1em 0em;
   max-width: 100%;
   width: 100%;
@@ -61,7 +64,8 @@ a {
 
 #is-triangle,
 #submitBtn,
-#calculate-hypotenuse {
+#calculate-hypotenuse,
+#calculate-area {
   background-color: var(--header-color);
   border: none;
   color: var(--text-color);

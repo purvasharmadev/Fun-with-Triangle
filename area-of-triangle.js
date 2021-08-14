@@ -9,7 +9,7 @@ function calculateArea() {
   const h = height.value;
   const result = (Number(b) * Number(h)) / 2;
   console.log(result);
-  output.innerText = "The area of the trianlge is " + result;
+  output.innerText = "The area of the trianlge is " + result + " cm²";
 }
 
 calBtn.addEventListener("click", calculateArea);
